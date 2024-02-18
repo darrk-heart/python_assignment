@@ -1,3 +1,5 @@
+#  write a program to compute the 1!+3!+5!+……+n!, n<=12
+
 def factorial(n):
     if n == 0:
         return 1
@@ -6,7 +8,7 @@ def factorial(n):
 
 def sum_odd_factorials():
     total = 0
-    for i in range(1, 12, 2):  # Loop through odd numbers from 1 to 11
+    for i in range(1, 12, 2):  
         total += factorial(i)
     return total
 
