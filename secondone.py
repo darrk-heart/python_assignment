@@ -12,9 +12,8 @@ def print_integers_and_sum(A, B):
 
 A, B = map(int, input("Enter two numbers A and B separated by space (-100<=A<B<=100): ").split())
 
-
 if -100 <= A < B <= 100:
     print("Integers from A to B (5 numbers per line):")
     print_integers_and_sum(A, B)
 else:
-    print("Invalid input range.")
+    print("You inputed an invalid input range.")
